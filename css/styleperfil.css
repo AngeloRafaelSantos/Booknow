@@ -1,0 +1,411 @@
+body{
+	background-color: skyblue;
+	margin: 0;
+	padding: 0;
+}
+
+/*defini o estilo do topo do site e menu*/
+
+#topo{
+	background-color: #158;
+	height: 100px;
+}
+.menumobile{
+	display: none;
+}
+.menu{
+	list-style-type: none;
+	background-color: white;
+	height: 60px;
+	box-shadow: 0 1px 1px #999;
+	float: left;
+}
+
+
+.liconfig{
+ 	font-size:50px;
+ 	text-align: center;
+ 	color:black;
+	
+}
+
+.menu li{
+	position: relative;
+	float: left;
+	width: 150px;
+	text-align: center;
+	line-height: 57px;
+
+}
+.menu li:hover{
+	background-color: lightgrey;
+}
+.menu li a{
+	font-family: Tahoma;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+#barra{
+	float: right;
+	height:60px;
+}
+#login{
+	float: right;
+}
+/* defini o estilo da li login após a efetuação de login do usuario para evitar distorções de foto e falta de alinhamento no texto*/
+
+#CapsulaDaFoto{
+	width: 50px;
+	height: 50px;
+	border-radius: 2000px;
+	border:2px solid skyblue;
+	overflow: hidden;
+	margin-top: 5px;
+}
+#FotoPerfil{
+	width: 100%;	
+}
+#NameUser{
+	margin-top: -55px;
+	height: 50px;
+	margin-left: 55px;
+	overflow: hidden;
+}
+
+/* defini o a posicão do efeito dropdow*/
+
+#dropdown1{
+	width: 100px;
+	margin-top: 60px;
+	box-shadow: 0 1px 1px #999;
+}
+#dropdown2{
+	width: 100px;
+	margin-top: 60px;
+	box-shadow: 0 1px 1px #999;
+}
+#CapsulaDaFoto2{
+	width:100px;
+	height:100px;
+	margin-top: 10px;
+	border-radius: 2000px;
+	border:2px solid skyblue;
+	overflow: hidden;
+}
+#user{
+	width:100%;
+}
+/*perfil*/
+.barrauser{
+	background-color: #158;
+	list-style-type: none;
+	height: 120px;
+	color: white;
+	box-shadow: 0 1px 1px #999;
+	float: left;
+}
+.barrauser li{
+	position: relative;
+	float: left;
+	width: 100px;
+	line-height: 57px;
+	margin-left: 4%;
+	font-size: 15px;
+
+}
+#dados{
+	width: 500px;
+}
+#iconeop{
+	margin-top: 10px;
+
+}
+#submenu{
+	text-align: center;
+	margin-top: 40px;
+	margin-left: -40px
+}
+#TrocarFoto{
+	width: 20%;
+	height: 50%;
+	text-align: center;
+}
+/* estilo da barra de opção (exigencias chatas pra trocar as cores)*/
+.barraopcao{
+	background-color: white;
+	height: 48px;
+	box-shadow: 0 2px 4px #999;
+}
+.tabs .tab a:hover {
+  color: darkorange;
+}
+.tabs .tab a.active {
+  color: darkorange;
+}
+.tabs .tab a {
+  color: #158;
+  text-decoration: none;
+  font-size: 16px;
+}
+.tabs .indicator {
+    background-color: #158;
+}
+/*telas do user*/
+#publi,#compras,#estante{
+	margin-top: -1%;
+	min-height:750px;
+	background-color:white;
+}
+#anunciar{
+	margin-top: 0.5%;
+	min-height:800px;
+	background-color:white;
+}
+.prefix{
+	font-size: 19px !important;
+}
+#inputFont{
+	font-size: 17px;
+}
+.prefix{
+	font-size: 20px;
+}
+/*dentro do modal troca foto*/
+#alteraimg{
+	width: 100px;
+	height: 100px;
+	border-radius: 2000px;
+	margin-top:5%;
+    margin-left:30%;
+	overflow: hidden;
+}
+#blah{
+	width:100%;
+	height:100%;
+}
+/* estlizar input de upload e submit*/
+input[type='file'] {
+  display: none
+}
+
+#labelimg {
+  margin-top: 5%;
+  background-color: #3498db;
+  margin-left: 15px !important;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  padding: 6px 20px
+}
+#salvar{
+	margin-top:5%;
+  width:30%;
+  height:30px;
+  background-color: #3498db;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  border:0;
+}
+.barraopcao2{
+	color: #158;
+}
+/*anunciar*/
+#caixaFotoProduto{
+	height: 300px;
+	border:3px solid lightgrey;
+	text-align: center;
+}
+#capsulaFotoProduto{
+	border:5px solid white;
+	width: 20%;
+	height: 200px;
+	margin-top: 1%;
+	margin-left: 1.5%;
+	overflow: hidden;
+	box-shadow: 0 2px 4px #999;
+}
+@media(max-width: 1024px){
+	#capsulaFotoProduto{
+	border:5px solid white;
+	width: 25%!important;
+	height: 200px;
+	margin-top: 1%;
+	margin-left: 1.5%;
+	overflow: hidden;
+	box-shadow: 0 2px 4px #999;
+}
+}
+@media(min-width: 1600px){
+	#capsulaFotoProduto{
+	border:5px solid white;
+	width: 16.5%;
+	height: 200px;
+	margin-top: 1%;
+	margin-left: 1.5%;
+	overflow: hidden;
+	box-shadow: 0 2px 4px #999;
+}	
+}
+
+#foto_livro{
+	width: 100%;
+	height: 100%;
+}
+#dadosdolivro{
+	margin-top: 1%;
+	border:3px solid lightgrey;
+	min-height: 300px;
+}
+#enviardadoslivros{
+	margin-top: 1%;
+	min-height: 300px;
+}
+#btnenviar{
+	background-color: skyblue;
+	color: white;
+	border:0;
+	width: 50%;
+	margin-left: 25%;
+	height: 50px;
+	margin-top: -5%;
+	border-radius: 10px;
+}
+/*seus itens publicados*/
+#ftoOrodutoPubli{
+	width: 15%;
+	height: 90px;
+	border:2px solid lightgrey;
+}
+#apaga{
+	float: right;
+}
+.tab{
+	text-decoration: none;
+}
+.deletalivro{
+	width:30%;
+	height:30%;
+	text-align: center;
+}
+/* define tamanho logo */
+#logofina{
+	width: 85%;
+	margin-top: -20px;
+}
+@media(min-width:1600px){
+	#logofina{
+		width: 80%;
+		height: 80px;
+	}
+}
+/* conficurações do topo do site*/
+#formPesquisa{
+	margin-top:30px;
+}
+#usuario{
+	font-size:20px;
+}
+#mostraResultado{
+	background-color: black;
+	color: white;
+	min-height: 0px;
+}
+#carrinho{
+	margin-top: -35px;
+	font-size: 50px;
+}
+#capsulacart{
+	text-align: center;
+}
+#carquant{
+	background-color: red;
+	color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	position: absolute;
+	margin-top: -35px;
+	margin-left:-10px;
+}
+/*produtos comprados*/
+
+.chipvendedor{
+	position: absolute;
+	margin-left: 130px;
+}
+.chippreco{
+	position: absolute;
+	margin-left: 30px
+}
+.p1, .p2, .p3{
+	
+	height: 4px;
+	background-color: #a7ffeb;
+}
+/*produtos vendidos*/
+.enderecocliente{
+	position: absolute;
+	margin-top: -12%;
+	z-index:1;
+}
+.pointer{
+	cursor:pointer;
+}
+.chipprecocomprador{
+	position: absolute;
+	margin-left: 30px
+}
+.chipcomprador{
+	margin-top: 40px;
+	margin-left: 10px;
+	position: absolute;
+}
+/*botão presquisa*/
+#enviaPesquisa{
+	background-color: #158;
+    display:block;
+    width:26px;
+    height:26px;
+    font-weight:bold;
+    color:#f00;
+    border:none;
+}
+#pesquisa{
+	font-size:20px;
+}
+#cash{
+	width:80%;
+	margin-top:10%;
+}
+#carteira{
+	width:30%;
+}
+#imgcarteira{
+	width:100%;
+}
+#money{
+	margin-top:15%;
+}
+/*carteira do usuario*/
+.saque{
+	background-color:skyblue;
+	height:60px;
+	border-radius :100px;
+	text-align:center;
+}
+.labelSaque{
+	font-size: 16px!important;
+}
+.inputSaque{
+	font-size: 16px!important;
+}
+#enviaSaque{
+	background-color: #158;
+	border:0;
+	color:white;
+	height: 30px;
+	border-radius: 20px;
+}

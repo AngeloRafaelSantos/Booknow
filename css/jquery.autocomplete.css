@@ -1,0 +1,58 @@
+.ac_results {
+	padding: 0px;
+	border: 2px solid #48D1CC;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font: menu;
+	font-size: 20px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white url('img/book-page-turn-03.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: white;
+}
+
+.ac_over {
+	background-color: #48D1CC;
+	color: white;
+}
+#imgpesquisa{
+	width: 50px;
+	height: 60px;
+}
+@media(min-width:1600px){
+	#imgpesquisa{
+		width: 60px;
+		height: 80px;
+	}
+} 

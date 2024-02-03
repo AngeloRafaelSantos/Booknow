@@ -1,0 +1,330 @@
+#grande{
+	height: 180px;
+	width: 220px;
+}
+#large{
+	font-size: 30px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/suporte.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+}
+#decoration{
+	font-family: Tahoma;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+footer{
+	background-color: #2196F3;
+	margin-top:350px;
+}
+/*defini o estilo do topo do site e menu*/
+
+#topo{
+	background-color: #158;
+	height: 100px;
+}
+.menumobile{
+	display: none;
+}
+.menu{
+	list-style-type: none;
+	background-color: white;
+	height: 60px;
+	box-shadow: 0 1px 1px #999;
+	float: left;
+}
+
+@media(max-width: 1000px){
+	#topo{
+		display: none;
+	}
+	#menu{
+		display: none;
+	}
+	.menumobile{
+	display: block;
+	background-color: #158;
+	height: 120px;
+	box-shadow: 0 3px 5px #999;
+	color: white;
+	}
+	#iconMenu{
+	margin-top: 10px;
+	font-size: 100px;
+	}
+
+}
+.side-nav{
+	width: 80%;
+}
+.background{
+	height: 400px;
+}
+#menu1{
+	min-height: 500px;
+	margin-top: 150px;
+	font-size: 50px;
+}
+.liconfig{
+ 	font-size:50px;
+ 	text-align: center;
+ 	color:black;
+	
+}
+
+#perfil{
+	margin-top: 3%;
+	margin-left: 5%;
+	width:40%;
+	height: 40%;
+}
+#perfillogado{
+	margin-top: 3%;
+	margin-left: 5%;
+ 	width: 40%;
+ 	height: 300px;
+}
+#logaut{
+	font-size: 80px;
+}
+#backgroundimage{
+	width: 100%;
+}
+#LoginMobile{
+	 width: 50%;
+	 height: 10%;
+	 margin-top: -31%;
+	 margin-left: 40%;
+	 background-color: #F8F8FF;
+	 border-radius: 0 50px 50px 0;
+	 text-align: center;
+	 color: black;
+	 box-shadow: 0 3px 5px #999;
+}
+
+.menu li{
+	position: relative;
+	float: left;
+	width: 150px;
+	text-align: center;
+	line-height: 57px;
+
+}
+.menu li:hover{
+	background-color: lightgrey;
+}
+.menu li a{
+	font-family: Tahoma;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+#barra{
+	float: right;
+	height:60px;
+}
+#login{
+	float: right;
+}
+/* defini o estilo da li login após a efetuação de login do usuario para evitar distorções de foto e falta de alinhamento no texto*/
+
+#CapsulaDaFoto{
+	width: 50px;
+	height: 50px;
+	border-radius: 2000px;
+	border:2px solid skyblue;
+	overflow: hidden;
+	margin-top: 5px;
+}
+#FotoPerfil{
+	margin-top: -32%;
+	width: 100%;	
+}
+#NameUser{
+	margin-top: -55px;
+	margin-left: 55px;
+}
+
+/* defini o a posicão do efeito dropdow*/
+
+#dropdown1{
+	width: 100px;
+	margin-top: 60px;
+	box-shadow: 0 1px 1px #999;
+}
+#dropdown2{
+	width: 100px;
+	margin-top: 60px;
+	box-shadow: 0 1px 1px #999;
+}
+
+/*defini o estilo do carousel destaques*/
+
+.card{
+	width: 200px;
+	min-height:300px;
+	margin-top: -90px;
+	padding:10px;
+	box-shadow: 0 1px 1px #999;
+}
+
+#previous{
+	margin-top: 110px;
+	font-size: 50px;
+
+}
+#next{
+	margin-top: 110px;
+	font-size: 50px;
+}
+.image{
+	width: 150px;
+	height: 200px;
+	margin-left: 15px;
+}
+.btcar{
+	margin-top: 10%;
+	font-size: 13px;
+}
+.carrinho{
+	font-size: 20px;
+}
+/* conficurações do topo do site*/
+#formPesquisa{
+	margin-top:30px;
+}
+#pesquisaFone{
+	font-size:20px;
+}
+#mostraResultado{
+	background-color: black;
+	color: white;
+	min-height: 0px;
+}
+#carrinho{
+	margin-top: -35px;
+	font-size: 50px;
+}
+#capsulacart{
+	text-align: center;
+}
+.teste{
+	text-align: center;
+	margin-top: 5px;
+	background-color: lightgrey;
+	height: 60px;
+}
+.teste2{
+	text-align: center;
+	margin-top: 5px;
+	background-color: orange;
+	height: 60px;
+}
+/* produtos enviados*/
+.produtosen{
+	border: 3px solid lightgrey;
+	height:150px;
+	margin-top: 2%;
+	border-radius:10px;
+}
+#produtofto{
+	width:90px;
+	margin-top: 10px;
+	height:120px;
+}
+
+.dadosdolivroen{
+	margin-top:2%;
+}
+#btncar{
+	background-color:orange;
+	width:100px;
+	height:50px;
+	border:0;
+}
+.btncar2{
+	background-color:orange;
+	width:100px;
+	height:50px;
+	margin-top:3%;
+	border:0;
+	text-align: center;
+	text-decoration: none;
+}
+#car2{
+	margin-top:8%;
+}
+/*pagina carrinho de produtos*/
+#pop{
+	background-color: #323232;
+	height: 60px;
+	position: fixed
+}
+#carquant{
+	background-color: red;
+	color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	position: absolute;
+	margin-top: -35px;
+	margin-left:-10px;
+}
+.carapag{
+	margin-top:2%;
+	float: right;
+}
+/*define tamanho da logo*/
+#logofina{
+	width: 85%;
+	margin-top: -20px;
+}
+@media(min-width:1600px){
+	#logofina{
+		width: 80%;
+		height: 80px;
+	}
+} 
+.page-footer{
+	width: 100%;
+	margin-top: 20%;
+	background-color: #158;
+}
+.iconSo{
+	width: 30px;
+}
+.textslider{
+ 	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+	border-radius: 20px;
+	text-align: center!important;
+}
+.page-footer{
+	width: 100%;
+	margin-top: 20%;
+	background-color: #158!important;
+}
+.iconSo{
+	width: 30px;
+}
+.textslider{
+ 	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+	border-radius: 20px;
+	text-align: center!important;
+}
